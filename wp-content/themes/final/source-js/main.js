@@ -55,3 +55,13 @@
         $('.text_4').addClass('active_text');
     })
 })(jQuery);
+
+$(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        nav:true,
+        items:1,
+        dotsEach: true,
+        autoplayTimeout: 2000,
+    });
+});

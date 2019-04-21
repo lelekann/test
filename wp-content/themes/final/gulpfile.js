@@ -20,9 +20,12 @@ var gulp = require('gulp'),
 
 var SASS_INCLUDE_PATHS = [
     './node_modules/normalize-scss/sass/_normalize.scss',
+    './node_modules/owl.carousel/src/scss/owl.carousel.scss',
+    './node_modules/owl.carousel/src/scss/owl.theme.default.scss',
 ]
 var LIB_JS_INCLUDE_PATHS = [
     './node_modules/jquery/dist/jquery.js',
+    './node_modules/owl.carousel/dist/owl.carousel.min.js',
 ]
 
 function handleError (err) {
