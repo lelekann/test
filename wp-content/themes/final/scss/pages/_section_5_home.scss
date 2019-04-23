@@ -6,9 +6,10 @@
     margin-bottom: 40px;
   }
   .owl-carousel {
-    .content_vertical {
+    .wrap_carousel {
       display: flex;
       flex-direction: column;
+      text-align: center;
       .image{
         margin-bottom: 40px;
       }

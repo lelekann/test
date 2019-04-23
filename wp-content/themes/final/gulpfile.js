@@ -24,7 +24,7 @@ var SASS_INCLUDE_PATHS = [
     './node_modules/owl.carousel/src/scss/owl.theme.default.scss',
 ]
 var LIB_JS_INCLUDE_PATHS = [
-    './node_modules/jquery/dist/jquery.js',
+    './node_modules/owl.carousel/docs/assets/vendors/jquery.min.js',
     './node_modules/owl.carousel/dist/owl.carousel.min.js',
 ]
 
@@ -57,7 +57,7 @@ gulp.task('styles', function () {
 })
 
 gulp.task('scripts', function () {
-    return gulp.src('./source-js/main.js')
+    return gulp.src('./source-js/main.js',LIB_JS_INCLUDE_PATHS)
         .pipe(plumber({ errorHandler: handleError }))
         .pipe(sourcemaps.init())
         .pipe(babel({compact: true}))

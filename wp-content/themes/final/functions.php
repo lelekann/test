@@ -21,8 +21,7 @@ add_action('wp_enqueue_scripts', 'al_styles');
 
 //Scripts
 function al_scripts(){
-  wp_enqueue_script( 'script-one', get_template_directory_uri() . '/assets/js/main.min.js', array(), null, true );
-  //wp_enqueue_script( 'script-two', get_template_directory_uri() . '/js/script.two.js', array(), null, true );
+  wp_enqueue_script( 'script-one', get_template_directory_uri() . '/assets/js/main.min.js', array(), null, true);
 }
 add_action('wp_enqueue_scripts', 'al_scripts');
 
