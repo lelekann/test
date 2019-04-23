@@ -24,7 +24,6 @@ var SASS_INCLUDE_PATHS = [
     './node_modules/owl.carousel/src/scss/owl.theme.default.scss',
 ]
 var LIB_JS_INCLUDE_PATHS = [
-    './node_modules/owl.carousel/docs/assets/vendors/jquery.min.js',
     './node_modules/owl.carousel/dist/owl.carousel.min.js',
 ]
 

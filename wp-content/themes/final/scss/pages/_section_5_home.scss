@@ -1,10 +1,12 @@
 .home_section_5 {
   padding: 30px 80px;
   text-align: center;
-  position: relative;
+position: relative;
+
   .dark-h1 {
     margin-bottom: 40px;
   }
+
   .owl-carousel {
     .wrap_carousel {
       display: flex;
@@ -26,6 +28,7 @@
     }
   }
 }
+
 .home_section_5:after {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
   content: "";

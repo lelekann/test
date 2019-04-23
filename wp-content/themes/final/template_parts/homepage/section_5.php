@@ -1,5 +1,5 @@
 <?php $main_title = get_sub_field('main_title'); ?>
-
+<?php $image = get_sub_field('image'); ?>
 
 <section class="home_section_5">
 
@@ -11,7 +11,6 @@
 
   <div class="owl-carousel owl-theme">
     <?php
-
     if (have_rows('carousel')):
       while (have_rows('carousel')) : the_row(); ?>
         <?php $image = get_sub_field('image'); ?>
@@ -37,5 +36,6 @@
       echo 'no rows found';
     endif; ?>
   </div>
+
 
 </section>
