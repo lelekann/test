@@ -9,12 +9,13 @@
     .content_vertical {
       display: flex;
       flex-direction: column;
-      max-width: 458px;
 
       .white-h1 {
         margin-bottom: 45px;
       }
-
+      .white-description {
+        max-width: 460px;
+      }
     }
   }
 }

@@ -15,6 +15,10 @@
     .wrap {
       position: relative;
       cursor: pointer;
+      font-size: 0;
+      .bg_image {
+        vertical-align: bottom;
+      }
 
       .content_vertical {
         display: none;

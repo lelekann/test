@@ -5,10 +5,7 @@
   .content_gorizontal {
     display: flex;
     justify-content: space-between;
-
-    .image {
-      vertical-align: bottom;
-    }
+    font-size: 0;
 
     .content_vertical {
       display: flex;

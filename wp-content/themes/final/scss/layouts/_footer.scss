@@ -25,6 +25,10 @@
           text-decoration: none;
         }
       }
+
+      a:hover {
+        color: #4e4e4e;
+      }
     }
 
     .email {
@@ -36,9 +40,6 @@
     }
 
     .join {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
 
       form {
         display: flex;
@@ -53,6 +54,7 @@
       }
 
       .social-icon {
+        margin-top: 85px;
         li {
           display: inline-block;
           margin-right: 20px;
@@ -65,8 +67,13 @@
             }
           }
 
+          a:hover {
+            color: #0d5fb1;
+          }
+
         }
       }
+
     }
   }
 

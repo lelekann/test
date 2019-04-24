@@ -6,24 +6,28 @@ position: relative;
   .dark-h1 {
     margin-bottom: 40px;
   }
-
   .owl-carousel {
-    .wrap_carousel {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      .image{
-        margin-bottom: 40px;
-      }
-      .dark-h2 {
-        margin-bottom: 20px;
-      }
-      .description {
-        max-width: 505px;
-        color: #333333;
-        font: 18px/30px "Barlow", sans-serif;
-        letter-spacing: -0.36px;
-        margin: 0 auto 55px;
+    .owl-item {
+      max-width: 505px;
+
+      .wrap_carousel {
+        text-align: center;
+
+        .image {
+          margin-bottom: 40px;
+        }
+
+        .dark-h2 {
+          margin-bottom: 20px;
+        }
+
+        .description {
+          max-width: 505px;
+          color: #333333;
+          font: 18px/30px "Barlow", sans-serif;
+          letter-spacing: -0.36px;
+          margin: 0 auto 55px;
+        }
       }
     }
   }
