@@ -14,6 +14,10 @@ add_action('wp_enqueue_scripts', 'change_jquery_version');
 function al_styles(){
   wp_register_style('style', get_template_directory_uri() . '/assets/css/main.min.css');
   wp_enqueue_style( 'style');
+  wp_register_style('owl_1', get_template_directory_uri() . '/assets/css/owl.carousel.min.css');
+  wp_enqueue_style( 'owl_1');
+  wp_register_style('owl_2', get_template_directory_uri() . '/assets/css/owl.theme.default.min.css');
+  wp_enqueue_style( 'owl_2');
   wp_register_style('al_barlow','https://fonts.googleapis.com/css?family=Barlow:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
   wp_enqueue_style('al_barlow');
   wp_register_style('al_sans','https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');

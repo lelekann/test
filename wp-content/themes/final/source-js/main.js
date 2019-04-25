@@ -47,12 +47,18 @@
         $('.text_4').addClass('active_text');
     });
 
-    $(document).ready(function(){
-        $(".owl-carousel").owlCarousel({
-            items: 1
+    $(function() {
+        var owl = $(".owl-carousel");
+        owl.owlCarousel({
+            items: 1,
+            margin: 400,
+            loop: true,
+            nav: true,
+            autoplay: true
         });
     });
 
+    $('.value').countTo();
 
 })(jQuery);
 
